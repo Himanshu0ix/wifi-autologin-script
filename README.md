@@ -34,7 +34,7 @@ First, you need the code and one small requirement.
 
 **Download the Code:**
 **Easy way:-** Click the green `<> Code` button at the top of this page, then click **Download ZIP**. Unzip the file on your computer.
-For developers: git clone https://github.com/Himanshu0ix/wifi-autologin-script/.git
+For developers: git clone https://github.com/Himanshu0ix/wifi-autologin-script
 
 ## Step 2: Add Your Login Info
 This is where you'll securely store your username and password.
