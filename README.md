@@ -19,7 +19,7 @@ This tool automates the entire process silently in the background. Once configur
 
 ## Prerequisites
 - Python 3
-- [Download Python](
+- [Download Python](https://www.python.org/downloads/)
 - The `requests` Python library. You can install it by running:
   ```bash
   pip install requests
@@ -30,7 +30,7 @@ This tool automates the entire process silently in the background. Once configur
 First, you need the code and one small requirement.
 
 **Download the Code:**
-**Easy way:-** Click the green <> Code button at the top of this page, then click Download ZIP. Unzip the file on your computer.
+**Easy way:-** Click the green `<> Code` button at the top of this page, then click **Download ZIP**. Unzip the file on your computer.
 For developers: git clone https://github.com/Himanshu0ix/wifi-autologin-script/.git
 
 ## Step 2: Add Your Login Info
@@ -58,7 +58,7 @@ check_interval = 30
 retry_delay = 10
 ```
 
-Step 3: Run the Tool!
+## Step 3: Run the Tool!
 You're all set! Now you can start the tool.
 
 First, Run a Quick Test
@@ -75,18 +75,19 @@ Run It Silently in the Background
 This is the final step to make the tool run forever without you needing to do anything.
 Now, edit the file with your actual username and password
 
+---
+## On Windows:
 ```bash
-### Running Silently in the Background
-
-**On Windows:**
 You can use `pythonw.exe` to run the script without a visible terminal window.
 1.  Create a shortcut to `portal_autologin.py`.
 2.  Right-click the shortcut -> **Properties**.
 3.  In the **Target** field, add `pythonw.exe` before the script path. It should look like this:
     `C:\Path\To\Your\Python\pythonw.exe "C:\Path\To\Your\portal-butler\portal_autologin.py"`
 4.  Move this shortcut to your Startup folder to have it run automatically when you log in.
-
-**On Linux (using `systemd`):**
+```
+---
+## On Linux (using `systemd`):
+```bash
 This is the standard method for running background services.
 1.  Create a service file:
     ```bash
@@ -114,11 +115,10 @@ This is the standard method for running background services.
     sudo systemctl start portal-butler.service
     ```
 4.  To check its status, use: `sudo systemctl status portal-butler.service`
+```
 
 ## 🔎 Troubleshooting
 If you encounter any issues, your first stop should be the **`autologin.log`** file. It contains a detailed, timestamped record of every action the script takes and any errors it encounters.
 
 ## 🤝 Contributing
 Contributions are welcome! If you have an idea for an improvement or find a bug, please feel free to open an issue or submit a pull request.
-```
-  
