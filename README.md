@@ -1,3 +1,6 @@
+[![Watch the video](https://img.youtube.com/vi/_iXNm2dybqM/maxresdefault.jpg)](https://youtu.be/_iXNm2dybqM)
+
+### [Watch this video on YouTube](https://youtu.be/_iXNm2dybqM)
 
 A Python-based automation tool to keep you seamlessly connected to a Sophos/Cyberoam captive portal Wi-Fi network. This script runs in the background, detects when you've been logged out, and automatically signs you back in without ever needing to open a browser.
 
@@ -116,9 +119,24 @@ This is the standard method for running background services.
     ```
 4.  To check its status, use: `sudo systemctl status portal-butler.service`
 ```
+---
+## ❌ For Mac will be uploaded soon!!
+---
 
 ## 🔎 Troubleshooting
 If you encounter any issues, your first stop should be the **`autologin.log`** file. It contains a detailed, timestamped record of every action the script takes and any errors it encounters.
 
 ## 🤝 Contributing
 Contributions are welcome! If you have an idea for an improvement or find a bug, please feel free to open an issue or submit a pull request.
+
+This tool was built in good faith to solve a common frustration I faced every day. My goal is to provide a clean, reliable, and transparent solution. I will never include malicious code, trackers, or anything that would compromise your security.
+
+This project is open-source and distributed under the Apache License 2.0, which means you are free to view, modify, and share the code as you see fit.
+
+```
+Copyright (c) 2025 himanshu0ix
+
+If you have any questions, ideas for improvement, or just want to connect, I'd love to hear from you!
+```
+Connect with me: 
+[himanshu0ix on Linktree](https://linktr.ee/himanshu0ix)
